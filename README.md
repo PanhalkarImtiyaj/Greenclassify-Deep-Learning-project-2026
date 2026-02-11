@@ -34,27 +34,24 @@ dense_2	Dense	(None, 15)	1,935
 Total Parameters: 11,252,815
 
 📁 Project Structure
-
 Greenclassify/
 ├── flask/
-│   ├── app.py                          # Flask application
-│   ├── vegetable_classification.h5     # Trained model
-│   ├── static/
-│   │   ├── css/
-│   │   │   └── style.css              # Stylesheets
-│   │   ├── js/
-│   │   │   └── main.js                # JavaScript
-│   │   └── img/                       # Images
-│   ├── templates/
-│   │   ├── index.html                 # Home page
-│   │   ├── prediction.html            # Prediction page
-│   │   └── logout.html                # Result page
-│   └── uploads/                       # Uploaded images
+│ ├── app.py
+│ ├── vegetable_classification.h5
+│ ├── static/
+│ │ ├── css/style.css
+│ │ ├── js/main.js
+│ │ └── img/
+│ ├── templates/
+│ │ ├── index.html
+│ │ ├── prediction.html
+│ │ └── logout.html
+│ └── uploads/
 ├── notebooks/
-│   └── vegetable_classification_training.ipynb  # Training notebook
-├── requirements.txt                    # Dependencies
-├── README.md                          # Documentation
-└── LICENSE                            # License file
+│ └── vegetable_classification_training.ipynb
+├── requirements.txt
+├── README.md
+└── LICENSE
 
 🚀 Getting Started
 
